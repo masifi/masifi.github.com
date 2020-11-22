@@ -58,7 +58,7 @@ nav ul li {
     position:relative;
 }
 
-nav ul li a:hover{
+nav > div > ul > li > a:hover{
     box-shadow: 0px -3px 0px 0px #ffa62b inset;
     text-shadow: 0px 0px 2px #ffa62b;
 }
@@ -94,7 +94,7 @@ nav ul li:hover > ul{
 }
 
 nav ul li > ul li a:hover {
-    background: #eee;
+    background: #ddd;
 }
 
 main {
