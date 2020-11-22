@@ -5,9 +5,9 @@ body{
     position: relative;
 }
 header{
-    background: #eee;
+    background: #f8f1f1;
     padding: 20px 30px 20px;
-    border-top: 12px groove #900;
+    border-top: 12px solid #db6400;
     border-radius: 0;
 }
 
@@ -35,7 +35,7 @@ header h1::after{
 }
 
 nav {
-    background: #FFEB3B;
+    background: #ffa62b;
     position: sticky;
     top: 0;
 }
@@ -57,22 +57,22 @@ nav ul li {
 }
 
 nav ul li a:hover{
-    background: #900;
-    color: #fff;
+    background: #db6400;
+    color: #f8f1f1;
 }
 
 main {
     padding: 10px 15px;
-    background: #f1f2f3;
+    background: #f8f1f1;
 }
 
 main article p::first-letter{
-    color: #a00;
+    color: #db6400;
 }
 
 footer {
-    color: #fff;
-    background: #400;
+    color: #f8f1f1;
+    background: #16697a;
     padding: 20px 0;
 }
 
@@ -97,7 +97,7 @@ footer ul a:hover {
 
 
 footer address {
-    color: #ccc;
+    color: #f8f1f1;
 }
 
 .row{
