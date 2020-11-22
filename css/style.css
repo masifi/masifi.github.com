@@ -80,11 +80,15 @@ nav ul > li ul li a {
     display: block;
     padding: 15px 20px;
     color: #16697a;
-    transition: box-shadow .4s, text-shadow .4s; 
+    transition: background .4s; 
 }
 
 nav ul li:hover ul{
     display: block;
+}
+
+nav ul li ul li a:hover {
+    background: #eee;
 }
 
 main {
