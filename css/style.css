@@ -97,6 +97,17 @@ nav ul li > ul li a:hover {
     background: #ddd;
 }
 
+.caret::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #f8f1f1;
+}
+
 main {
     padding: 10px 15px;
     background: #f8f1f1;
