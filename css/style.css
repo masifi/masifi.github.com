@@ -72,12 +72,27 @@ main article p::first-letter{
 
 footer {
     color: #fff;
-    background: #800;
+    background: #400;
+    padding: 20px 0;
+}
+
+footer h5{
+    margin-bottom: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding:0;
+}
+
+footer ul a{
+   color: #fff;
+   text-decoration: none;
 }
 
 .row{
     display:flex;
-    flex-directio:row;
+    flex-direction:row;
 }
 
 .col{
