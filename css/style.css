@@ -40,13 +40,13 @@ nav {
     top: 0;
 }
 
-nav > ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-nav > ul > li a {
+nav ul > li a {
     text-decoration: none;
     display: inline-block;
     padding: 15px 20px;
@@ -75,7 +75,7 @@ nav ul ul {
     background: #f8f1f1;
 }
 
-nav > ul > li ul li a {
+nav ul > li ul li a {
     text-decoration: none;
     display: block;
     padding: 15px 20px;
