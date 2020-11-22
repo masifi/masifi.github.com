@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lab 1</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        .arial{font-family: Georgia, 'Times New Roman', Times, serif}
+        .arial+p{ word-spacing: 20px;}
+        .large{ font-size: 2em;}
+        .letter-sapcing{
+            letter-spacing: 15px;
+            text-align: right
+        }
+        .text-danger{color: red;}
+        .f18{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: lighter;
+            line-height: 3em;
+        }
+        .italic{font-style: italic;}
+        .overline {
+            text-decoration: overline;
+        }
+        .line-through {
+            text-decoration: line-through;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        a:link {
+            text-decoration: none;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
+        .lowercase {
+            text-transform: lowercase;
+        }
+        .capitalize {
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+<body style="background: #ff6">
+    <h1>CSS Lab1 | I'm default H1</h1>
+    <p>
+        Iam a defaul Paragrph, The font-family property accepts a list of different font families. This is because, not all users will have the same fonts installed on their computer. Therefore, as a designer/developer, you can provide a list of fonts, starting with your first choice, and ending with your last choice.
+    </p>
+    <h1 class="arial">I'm h1, change my font family to Times new Roman</h1>
+    <p>This text is styled with word spacing and this text is rendered in either arial, tahoma, or the default sans font (depending on which font the user's system has).</p>
+    <br>
+    <h1 class="italic">I'm H1, change my font style</h1>
+    <p class="large letter-sapcing">I have letter spacing of 15px and my size is 2em, I also have right alignment This text is rendered in either arail, verdana, or the default sans font (depending on which font the user's system has).</p>
+   
+    <h1 class="text-danger">Change My color to red</h1>
+    <p class="f18 line">
+        Please set line height <span class="text-danger">3em</span> for me then changr my size is <span class="text-danger">20px</span> This text 
+        is rendered in either arail, verdana, or the default sans font (depending on which font the user's system has).
+        This just for css testing purpose by the way CSS font properties enable you to change the look of your text. For example, you can assign a font family, apply bold or italic formatting, change the size and more.
+    </p>
+
+    <h1>Text Decoration</h1>
+    <p class="overline">This text has a line over the top</p>
+    <p class="line-through">This text has a line through the middle</p>
+    <p class="underline">This text has a line underneath</p>
+    <a href="/css/" target="_blank">This hyperlink has no underline</a>
+
+    <h1>Text Transaformation</h1>
+    <p class="uppercase">This text has been transformed to uppercase</p>
+    <p class="lowercase">THIS TEXT HAS BEEN TRANSFORMED TO LOWERCASE</p>
+    <p class="capitalize">this text has been capitalized.</p>
+</body>
+</html>
