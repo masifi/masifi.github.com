@@ -70,13 +70,18 @@ main article p::first-letter{
     color: #a00;
 }
 
+footer {
+    color: #fff;
+    background: #800;
+}
+
 .row{
     display:flex;
     flex-directio:row;
 }
 
 .col{
-    
+    flex: 1
 }
 
 .container{
