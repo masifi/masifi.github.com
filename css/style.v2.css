@@ -7,7 +7,7 @@ body{
 header{
     background: #eee;
     padding: 20px 30px 20px;
-    border-top: 20px double #900;
+    border-top: 12px groove #900;
     border-radius: 0;
 }
 
