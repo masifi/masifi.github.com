@@ -7,8 +7,8 @@ body{
 header{
     background: #eee;
     padding: 20px 30px 20px;
-    border-top: 20px groove #900;
-    border-radius: 5px 5px 0 0;
+    border-top: 20px double #900;
+    border-radius: 0;
 }
 
 header h1{
