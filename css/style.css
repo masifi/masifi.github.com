@@ -67,6 +67,10 @@ main {
     background: #f8f1f1;
 }
 
+article p {
+    text-align: justify;
+}
+
 main article p::first-letter{
     color: #db6400;
 }
