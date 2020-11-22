@@ -35,7 +35,7 @@ header h1::after{
 }
 
 nav {
-    background: #ffa62b;
+    background: #16697a;
     position: sticky;
     top: 0;
 }
@@ -50,7 +50,7 @@ nav ul a {
     text-decoration: none;
     display: inline-block;
     padding: 15px 20px;
-    color: #16697a;
+    color: #f8f1f1;
     font-weight: 500;
     transition: box-shadow .4s, text-shadow .4s; 
 }
@@ -59,8 +59,8 @@ nav ul li {
 }
 
 nav ul li a:hover{
-    box-shadow: 0px -3px 0px 0px #16697a inset;
-    text-shadow: 1px 1px 2px #fff;
+    box-shadow: 0px -3px 0px 0px #db6400 inset;
+    text-shadow: 0px 0px 5px #fff;
 }
 
 main {
