@@ -70,6 +70,15 @@ main article p::first-letter{
     color: #a00;
 }
 
+.row{
+    display:flex;
+    flex-directio:row;
+}
+
+.col{
+    
+}
+
 .container{
     margin: 0 12%;
 }
